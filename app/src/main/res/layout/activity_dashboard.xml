@@ -1,0 +1,28 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:orientation="vertical"
+    tools:context="com.example.arunv.tictactoe.Scorecard">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ScoreCard"
+        android:textColor="#900"
+        android:textSize="15sp">
+
+    </TextView>
+    <ListView
+        android:id="@+id/scorelist"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"></View>
+
+</LinearLayout>

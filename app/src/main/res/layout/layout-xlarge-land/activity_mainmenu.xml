@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="100"
+        android:background="#fff"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="20"
+            android:text="Nought & Cross"
+            android:textSize="40sp"
+            android:gravity="center"
+            android:textStyle="normal"
+            android:textColor="#900"
+            android:background="#fff"
+            android:fontFamily="sans-serif"
+        />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="60"
+
+            android:weightSum="100"
+            android:background="#fff"
+            android:orientation="horizontal">
+
+
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:src="@drawable/tic"
+                android:layout_weight="40"/>
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="2"></View>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="55"
+                android:weightSum="100"
+                android:orientation="vertical"
+
+            >
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="38"></View>
+
+
+                <Button
+                    android:id="@+id/start"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="15"
+                    android:gravity="center"
+                    android:fontFamily="sans-serif"
+                    android:textColor="#900"
+                    android:textStyle="normal"
+                    android:textSize="20sp"
+                    android:textAllCaps="false"
+                    android:background="@drawable/border"
+                    android:text="Start Game"/>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="3"
+                ></View>
+
+                <Button
+                    android:id="@+id/help"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="15"
+                    android:gravity="center"
+                    android:fontFamily="sans-serif"
+                    android:textColor="#900"
+                    android:textStyle="normal"
+                    android:textSize="20sp"
+                    android:textAllCaps="false"
+                    android:background="@drawable/border"
+                    android:text="Help"/>
+
+
+
+
+
+
+
+
+
+            </LinearLayout>
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:textColor="#900"
+        android:gravity="center"
+        android:textSize="15sp"
+        android:background="#fff"
+        android:text="Powered BY: Pashant Corporation Pvt Ltd."
+        android:layout_alignParentBottom="true"/>
+
+
+
+
+</RelativeLayout>
